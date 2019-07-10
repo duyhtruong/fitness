@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+
+/*
+    Left Right Columns
+*/
+
+.leftNavColumn {
+    background-color: #2980b9; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 2.5vh;
+
+}
+
+.rightDashboardColumn {
+    background-color: #ecf0f1;
+    padding-top: 2.5vh;
+}
+
+.dashboardBody {
+    height: 100vh;
+}
+
+
+
+
+/* 
+    Cards          
+*/
+
+
+.singleCards{
+    background-color: white;
+    height: 45vh;
+    margin-bottom: 1em;
+    margin-right: 1em;
+
+}
+
+
+
+
+@media only screen 
+  and (max-device-width: 768px) 
+ { 
+
+.singleCards{
+    margin-right: 0;
+}
+
+ }
