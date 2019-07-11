@@ -18,6 +18,7 @@
 .rightDashboardColumn {
     background-color: #ecf0f1;
     padding-top: 2.5vh;
+   
 }
 
 .dashboardBody {
@@ -40,6 +41,13 @@
 
 }
 
+.singleCardInternal{
+    background-color: red;
+}
+
+.cardGrid{
+
+}
 
 
 
@@ -47,8 +55,6 @@
   and (max-device-width: 768px) 
  { 
 
-.singleCards{
-    margin-right: 0;
-}
+
 
  }
