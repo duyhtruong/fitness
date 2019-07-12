@@ -9,8 +9,8 @@ class Dashboard extends React.Component{
     render(){
         return(
             <div> 
-                <Row className='dashboardBody'>
-                    <Col sm={2} className='leftNavColumn'><Nav /></Col>
+                <Row className='dashboardBody' noGutters={true}>
+                    <Col sm={2} className='leftNavColumn '><Nav /></Col>
                     <Col sm={10} className='rightDashboardColumn'><CardGrid /></Col>
                 </Row>
             </div>

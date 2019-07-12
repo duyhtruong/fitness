@@ -23,7 +23,7 @@ class CardGrid extends React.Component{
             <div>
                 <Container>
                     <Row className="justify-content-md-center">
-                        <Col className='singleCards' lg={5}>
+                        <Col className='singleCards' lg={7}>
                             
                             <Line
                 
@@ -32,7 +32,7 @@ class CardGrid extends React.Component{
                                 />
                                
                             </Col>
-                        <Col className='singleCards' lg={5}>
+                        <Col className='singleCards' lg={4}>
                             <Doughnut 
                                
                                 data={macroData}
@@ -41,7 +41,7 @@ class CardGrid extends React.Component{
                         </Col>
                     </Row>
                     <Row className="justify-content-md-center">
-                        <Col className='singleCards' lg={5}>
+                        <Col className='singleCards' lg={4}>
                             <CalendarHeatMap 
                                 endDate={new Date}
                                 values={[
@@ -61,7 +61,7 @@ class CardGrid extends React.Component{
                                 numDays= {100}
                             />
                         </Col>
-                        <Col className='singleCards' lg={5}>
+                        <Col className='singleCards' lg={7}>
                             <Line 
                                
                                 data={weightData}
