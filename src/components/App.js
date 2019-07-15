@@ -8,6 +8,8 @@ import Login from './Login';
 import Dashboard from './Dashboard';
 import Register from './Register';
 import Nav from './Nav';
+import EditLift from './EditLift';
+import EditLiftData from './EditLiftData';
 
 class App extends React.Component{
     render(){
@@ -17,6 +19,8 @@ class App extends React.Component{
                 <Route path='/fitness/login' exact component={Login}/>
                 <Route path='/fitness/register' exact component={Register}/>
                 <Route path='/fitness/dashboard' exact component={Dashboard}/>
+                <Route path='/fitness/edit/lift' exact component={EditLift}/>
+                <Route path='/fitness/edit/lift/data' exact component={EditLiftData}/>
             </BrowserRouter>
         )
     }

@@ -99,9 +99,9 @@
 
 .singleCards{
     background-color: white;
-    height: 45vh;
     margin-bottom: 1em;
     margin-right: 1em;
+   height: 45vh;
 
 }
 
@@ -113,6 +113,39 @@
 
 }
 
+.cardEditIcon{
+    color: #bdc3c7;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+
+/*
+    Edit Lift
+*/
+
+.editLiftPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    
+}
+
+.editTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 3em;
+
+   
+}
+
+.editLiftData{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 @media only screen 

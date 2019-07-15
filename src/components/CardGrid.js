@@ -14,6 +14,8 @@ import { Doughnut } from 'react-chartjs-2';
 import CalendarHeatMap from 'react-calendar-heatmap';
 import 'react-calendar-heatmap/dist/styles.css';
 
+import { FiPlus } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 class CardGrid extends React.Component{
     
@@ -24,24 +26,45 @@ class CardGrid extends React.Component{
                 <Container>
                     <Row className="justify-content-md-center">
                         <Col className='singleCards' lg={7}>
-                            
-                            <Line
-                
-                                data={data}
-                                options={{ maintainAspectRatio: false }}   
-                                />
-                               
+                            <div className='cardEditIcon'> 
+                                <Link to='/fitness/edit/lift'><FiPlus /></Link>
+                            </div>
+                            <div className='lineGraphCard'>
+                                <Line
+                                    height={300}
+                                   
+                                    data={data}
+                                    options={{ maintainAspectRatio: false }}   
+                                    />
+                             </div>
+                           
                             </Col>
                         <Col className='singleCards' lg={4}>
+                             <div className='cardEditIcon'> 
+                                <FiPlus />
+                            </div>
+                            <div>
                             <Doughnut 
-                               
+                                height={250}
                                 data={macroData}
                                 options={{ maintainAspectRatio: false}}
                             />
+                            </div>
                         </Col>
                     </Row>
                     <Row className="justify-content-md-center">
                         <Col className='singleCards' lg={4}>
+                            <div className='cardEditIcon'> 
+                                <Link 
+                                    to={{
+                                        pathname: '/fitness/edit/lift/data',
+                                        name: {
+                                            name: 'Did you gym today?'
+                                        }
+                                    }}><FiPlus /></Link>   
+                                
+                                
+                            </div>
                             <CalendarHeatMap 
                                 endDate={new Date}
                                 values={[
@@ -62,11 +85,23 @@ class CardGrid extends React.Component{
                             />
                         </Col>
                         <Col className='singleCards' lg={7}>
+                             <div className='cardEditIcon'> 
+                             <Link 
+                                to={{
+                                    pathname: '/fitness/edit/lift/data',
+                                    name: {
+                                        name: 'Weight'
+                                    }
+                                }}><FiPlus /></Link>
+                                
+                            </div>
+                            <div>
                             <Line 
-                               
+                                height={300}
                                 data={weightData}
                                 options={{ maintainAspectRatio: false}}
                             />
+                            </div>
                         </Col>
                     </Row>
                 </Container>
