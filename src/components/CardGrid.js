@@ -25,13 +25,18 @@ class CardGrid extends React.Component{
             <div>
                 <Container>
                     <Row className="justify-content-md-center">
+
+
                         <Col className='singleCards' lg={7}>
-                            <div className='cardEditIcon'> 
-                                <Link to='/fitness/edit/lift'><FiPlus /></Link>
+                            <div className='cardTitleGroup'>
+                                 <p className='cardTitle'>Strength Progression</p>  
+                                <div className='cardEditIcon'>  
+                                    <Link to='/fitness/edit/lift'><FiPlus /></Link>
+                                </div>
                             </div>
-                            <div className='lineGraphCard'>
+                            <div>
                                 <Line
-                                    height={300}
+                                    height={280}
                                    
                                     data={data}
                                     options={{ maintainAspectRatio: false }}   
@@ -39,9 +44,15 @@ class CardGrid extends React.Component{
                              </div>
                            
                             </Col>
+
+
+
                         <Col className='singleCards' lg={4}>
-                             <div className='cardEditIcon'> 
-                                <FiPlus />
+                            <div className='cardTitleGroup'>
+                                 <p className='cardTitle'>Macros</p>  
+                                <div className='cardEditIcon'>  
+                                    <Link to='/fitness/edit/lift'><FiPlus /></Link>
+                                </div>
                             </div>
                             <div>
                             <Doughnut 
@@ -51,10 +62,18 @@ class CardGrid extends React.Component{
                             />
                             </div>
                         </Col>
+
+
+
+
                     </Row>
                     <Row className="justify-content-md-center">
+
                         <Col className='singleCards' lg={4}>
-                            <div className='cardEditIcon'> 
+                           
+                        <div className='cardTitleGroup'>
+                                 <p className='cardTitle'>Day Tracker</p>  
+                                <div className='cardEditIcon'>  
                                 <Link 
                                     to={{
                                         pathname: '/fitness/edit/lift/data',
@@ -62,9 +81,9 @@ class CardGrid extends React.Component{
                                             name: 'Did you gym today?'
                                         }
                                     }}><FiPlus /></Link>   
-                                
-                                
+                                </div>
                             </div>
+                           
                             <CalendarHeatMap 
                                 endDate={new Date}
                                 values={[
@@ -84,20 +103,27 @@ class CardGrid extends React.Component{
                                 numDays= {100}
                             />
                         </Col>
+
+
+
                         <Col className='singleCards' lg={7}>
-                             <div className='cardEditIcon'> 
-                             <Link 
+                             
+                        <div className='cardTitleGroup'>
+                                 <p className='cardTitle'>Body Weight</p>  
+                                <div className='cardEditIcon'>  
+                                <Link 
                                 to={{
                                     pathname: '/fitness/edit/lift/data',
                                     name: {
                                         name: 'Weight'
                                     }
-                                }}><FiPlus /></Link>
-                                
-                            </div>
+                                }}><FiPlus /></Link> 
+                                </div>
+                            </div> 
+                             
                             <div>
                             <Line 
-                                height={300}
+                                height={280}
                                 data={weightData}
                                 options={{ maintainAspectRatio: false}}
                             />

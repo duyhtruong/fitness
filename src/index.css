@@ -53,30 +53,44 @@
 */
 
 .leftNavColumn {
-    background-color: #2980b9; 
+    background-color: #3498db; 
     padding-top: 2.5vh;
     font-family: 'Open Sans', sans-serif;
 }
 
-.navTitle{
-    font-weight: 700;
-    font-size: 2em;
-    padding-bottom: 80vh;
-    color: white;
-}
 
 .navLinkColor{
     color: white;
-    font-weight: 700;
-    font-size: 2em;
+    font-weight: 600;
+    font-size: 1.3em;
+
+
 }
 
 .navGroup{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding-left: 1em;
+    
+}
 
+.navIcon{
+    color: white;
+    display: inline;
+    padding-right: 0.5em;
+    vertical-align: text-bottom;
+    
+    
+}
+
+.navLogo{
+    width: 80%;
+}
+
+.navLogoContainer{
+    text-align: center;
+    padding-right: 1em;
+    padding-bottom: 1em;
 }
 
 .rightDashboardColumn {
@@ -109,16 +123,22 @@
     background-color: red;
 }
 
-.cardGrid{
-
+.cardTitleGroup{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
 }
 
 .cardEditIcon{
     color: #bdc3c7;
     font-size: 1.5em;
-    text-align: right;
 }
 
+.cardTitle{
+    font-size: 1em;
+    color: #7f8c8d;
+    font-family: 'Open Sans', sans-serif;
+}
 
 /*
     Edit Lift
@@ -166,11 +186,6 @@
         padding-left: 0.5em;
         padding-right: 0.5em;
         padding-top: 0.7em;
-    }
-
-    .navTitle{
-        padding-bottom: 0;
-        font-size: 1.2em;
     }
 
     .navLinkColor{
