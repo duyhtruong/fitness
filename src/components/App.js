@@ -3,6 +3,8 @@ import '../index.css';
 
 import { BrowserRouter, Route } from 'react-router-dom';
 
+
+
 import Landing from './Landing';
 import Login from './Login';
 import Dashboard from './Dashboard';
@@ -10,6 +12,7 @@ import Register from './Register';
 import Nav from './Nav';
 import EditLift from './EditLift';
 import EditLiftData from './EditLiftData';
+
 
 class App extends React.Component{
     render(){
