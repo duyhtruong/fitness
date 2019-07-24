@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc110f57.chunk.css",
-    "main.js": "/static/js/main.d0a1ac12.chunk.js",
-    "main.js.map": "/static/js/main.d0a1ac12.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.32a52a2a.chunk.css": "/static/css/2.32a52a2a.chunk.css",
-    "static/js/2.9e00568b.chunk.js": "/static/js/2.9e00568b.chunk.js",
-    "static/js/2.9e00568b.chunk.js.map": "/static/js/2.9e00568b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.40f494359b8d3bbc89ae82c0d4c4defa.js": "/precache-manifest.40f494359b8d3bbc89ae82c0d4c4defa.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.32a52a2a.chunk.css.map": "/static/css/2.32a52a2a.chunk.css.map",
-    "static/css/main.dc110f57.chunk.css.map": "/static/css/main.dc110f57.chunk.css.map",
-    "static/media/fitness_logo3.png": "/static/media/fitness_logo3.5a10e275.png"
+    "main.css": "/fitness/static/css/main.dc110f57.chunk.css",
+    "main.js": "/fitness/static/js/main.d0a1ac12.chunk.js",
+    "main.js.map": "/fitness/static/js/main.d0a1ac12.chunk.js.map",
+    "runtime~main.js": "/fitness/static/js/runtime~main.98422cc9.js",
+    "runtime~main.js.map": "/fitness/static/js/runtime~main.98422cc9.js.map",
+    "static/css/2.32a52a2a.chunk.css": "/fitness/static/css/2.32a52a2a.chunk.css",
+    "static/js/2.0b600dda.chunk.js": "/fitness/static/js/2.0b600dda.chunk.js",
+    "static/js/2.0b600dda.chunk.js.map": "/fitness/static/js/2.0b600dda.chunk.js.map",
+    "index.html": "/fitness/index.html",
+    "precache-manifest.d83e48279b0f7025c1b938f57d00d3f7.js": "/fitness/precache-manifest.d83e48279b0f7025c1b938f57d00d3f7.js",
+    "service-worker.js": "/fitness/service-worker.js",
+    "static/css/2.32a52a2a.chunk.css.map": "/fitness/static/css/2.32a52a2a.chunk.css.map",
+    "static/css/main.dc110f57.chunk.css.map": "/fitness/static/css/main.dc110f57.chunk.css.map",
+    "static/media/fitness_logo3.png": "/fitness/static/media/fitness_logo3.5a10e275.png"
   }
 }
