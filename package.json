@@ -2,7 +2,7 @@
   "name": "fitness_tracker",
   "version": "0.1.0",
   "private": true,
-  "home": "https://duyhtruong.github.io/fitness",
+  "home": "https://duyhtruong.github.io/fitness/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "chart.js": "^2.8.0",
